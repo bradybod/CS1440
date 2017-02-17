@@ -148,6 +148,7 @@ void TriangleTester::testNonTriangles()
     std::cout << "Execute TriangleTester::testNonTriangles" << std::endl;
 
     // TODO: Write representative test cases non-triangles triangles
+
 }
 
 void TriangleTester::testInvalid()

@@ -118,6 +118,40 @@ void EdgeTester::testParallelEdges()
     std::cout << "Execute EdgeTester::testParallelEdges" << std::endl;
 
     // TODO: Writing a representative set of test cases for edges that are parallel with other
+    Point p0(1,2,3);
+    Point p1(2,4,6);
+    Edge e1(&p0, &p1);
+
+    Point p2(2,4,6);
+    Point p3(4,8,12);
+    Edge e2(&p0, &p1);
+
+    if(!e1.isParallelTo(e2)){
+        printf("Failure at testing parallel edges: Edges e1 and e2 are not parallel.\n");
+    }
+    Point p4(1.001,2.002,3.003);
+    Point p5(2.002,4.004,6.006);
+    Edge e3(&p4, &p5);
+
+    Point p6(2.002,4.004,6.006);
+    Point p7(4.004,8.008,12.0012);
+    Edge e4(&p6, &p7);
+
+    if(!e3.isParallelTo(e4)){
+        printf("Failure at testing parallel edges: Edges e3 and e4 are not parallel.\n");
+    }
+    Point p8("1,2,3");
+    Point p9("2,4,6");
+    Edge e5(&p8, &p9);
+
+    Point p10("2,4,6");
+    Point p11("4,8,12");
+    Edge e6(&p10, &p11);
+
+    if(!e1.isParallelTo(e2)){
+        printf("Failure at testing parallel edges: Edges e5 and e6 are not parallel.\n");
+    }
+
 }
 
 void EdgeTester::testNonParallelEdges()
@@ -125,6 +159,39 @@ void EdgeTester::testNonParallelEdges()
     std::cout << "Execute EdgeTester::testNonParallelEdges" << std::endl;
 
     // TODO: Writing a representative set of test cases for edges that are not parallel with other
+    Point p0(1,2,3);
+    Point p1(2,7,1);
+    Edge e1(&p0, &p1);
+
+    Point p2(2,4,6);
+    Point p3(4,1,1);
+    Edge e2(&p2, &p3);
+
+    if(e1.isParallelTo(e2)){
+        printf("Failure at testing NON parallel edges: Edges e1 and e2 are parallel.\n");
+    }
+    Point p4(1.001,2.002,3.003);
+    Point p5(2.002,1.001,2.006);
+    Edge e3(&p4, &p5);
+
+    Point p6(2.002,4.004,6.006);
+    Point p7(4.004,3.003,2.0012);
+    Edge e4(&p6, &p7);
+
+    if(e3.isParallelTo(e4)){
+        printf("Failure at testing NON parallel edges: Edges e3 and e4 are parallel.\n");
+    }
+    Point p8("1,2,3");
+    Point p9("2,1,2");
+    Edge e5(&p8, &p9);
+
+    Point p10("2,4,6");
+    Point p11("4,3,12");
+    Edge e6(&p10, &p11);
+
+    if(e5.isParallelTo(e6)){
+        printf("Failure at testing NON parallel edges: Edges e5 and e6 are parallel.\n");
+    }
 }
 
 void EdgeTester::testNonLengthEdges()
@@ -132,6 +199,20 @@ void EdgeTester::testNonLengthEdges()
     std::cout << "Execute EdgeTester::testNonLengthEdges" << std::endl;
 
     // TODO: Writing a representative set of test cases for edges have a length of zero or approximately zero
+    Point p1(1,1,1);
+    Point p2(1,1,1);
+
+    Edge e1(&p1, &p2);
+    if(!e1.getLength() == 0){
+        printf("Failure at testing: e1 is not an edge.\n");
+    }
+    Point p3(1,1,1);
+    Point p4(1.0001,1.0001,1.0001);
+
+    Edge e2(&p3, &p4);
+    if(!e2.getLength() > 0.001){
+        printf("Failure at testing: e2 is not an edge.\n");
+    }
 }
 
 void EdgeTester::testBadEdges()
@@ -139,4 +220,18 @@ void EdgeTester::testBadEdges()
     std::cout << "Execute EdgeTester::testBadEdges" << std::endl;
 
     // TODO: Writing a representative set of test cases for edges not formed correctly
+    Point p3(1,1,1);
+    Point p4(1.0001,1.0001,1.0001);
+
+    Edge e2(&p3, &p4);
+    if(abs(!e2.getLength()) > 0.001){
+        printf("Failure at testing: e5 is not an edge.\n");
+    }
+    Point p5(1, sqrt(1),1);
+    Point p6(1.0001, sqrt(1),1.0001);
+
+    Edge e4(&p5, &p6);
+    if(e4.isValid()){
+        printf("Failure at testing: e4 is not an edge.\n");
+    }
 }

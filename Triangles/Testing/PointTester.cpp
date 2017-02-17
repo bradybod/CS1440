@@ -182,11 +182,20 @@ void PointTester::testConstructorWithStrings()
 
     // TODO: Write additional meaningful test cases for Point's string-based constructor
 }
-
+    // TODO: Write meaningful test cases to check for invalid points
 void PointTester::testInvalid() {
     std::cout << "Execute PointTester::testInvalid" << std::endl;
-
-
-    // TODO: Write meaningful test cases to check for invalid points
+    std::string pointStr = "1, 2, m";
+    Point q0(pointStr);
+    if (!q0.isValid())
+    {
+        std::cout << "Failure in constructing Point " << pointStr << " isValid()="
+                  << q0.isValid()
+                  << " x=" << q0.getX()
+                  << " y=" << q0.getY()
+                  << " z=" << q0.getZ()
+                  << std::endl;
+        return;
+    }
 }
 
