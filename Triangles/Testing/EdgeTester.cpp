@@ -203,14 +203,14 @@ void EdgeTester::testNonLengthEdges()
     Point p2(1,1,1);
 
     Edge e1(&p1, &p2);
-    if(!e1.getLength() == 0){
+    if((!e1.getLength()) == 0){
         printf("Failure at testing: e1 is not an edge.\n");
     }
     Point p3(1,1,1);
     Point p4(1.0001,1.0001,1.0001);
 
     Edge e2(&p3, &p4);
-    if(!e2.getLength() > 0.001){
+    if((!e2.getLength()) > 0.001){
         printf("Failure at testing: e2 is not an edge.\n");
     }
 }
@@ -224,14 +224,14 @@ void EdgeTester::testBadEdges()
     Point p4(1.0001,1.0001,1.0001);
 
     Edge e2(&p3, &p4);
-    if(abs(!e2.getLength()) > 0.001){
+    if((!e2.getLength()) > 0.001){
         printf("Failure at testing: e5 is not an edge.\n");
     }
-    Point p5(1, sqrt(1),1);
-    Point p6(1.0001, sqrt(1),1.0001);
+    Point p5(1, 1,1);
+    Point p6(1.0001, 1.0001,1.0001);
 
     Edge e4(&p5, &p6);
-    if(e4.isValid()){
+    if(!e4.isValid()){
         printf("Failure at testing: e4 is not an edge.\n");
     }
 }
