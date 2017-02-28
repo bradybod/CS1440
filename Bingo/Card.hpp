@@ -17,6 +17,7 @@ private:
     int m_numberMax;
     int m_cardIndex;
     std::vector<int> numbers;
+    std::vector<std::vector<int>> vCard;
 };
 
 
