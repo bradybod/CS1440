@@ -14,7 +14,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d43c2fba-d44f-473f-acbe-6b1f6bb0fe20" name="Default" comment="" />
+    <list default="true" id="d43c2fba-d44f-473f-acbe-6b1f6bb0fe20" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Triangles.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -611,12 +613,12 @@
       <workItem from="1487019482380" duration="105000" />
       <workItem from="1487028556383" duration="2662000" />
       <workItem from="1487202510457" duration="613000" />
-      <workItem from="1487208458483" duration="20024000" />
+      <workItem from="1487208458483" duration="20247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64988000" />
+    <option name="totallyTimeSpent" value="65211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
