@@ -12,27 +12,33 @@ Card::Card(int cardSize, int numberMax, int cardIndex):
 {
 
    // std::vector<std::vector<int>> vCard;
+    for(int i = 1; i < m_numberMax; i++){
+        numbers.push_back(i);
+    }
     for(int i = 0; i < m_numberMax; i++){
-        for(int i = 1; i < m_numberMax; i++){
-            numbers.push_back(i);
-        }
         std::random_shuffle(numbers.begin(), numbers.end());
         for (int j = 0; j < m_cardSize; ++j) {
-            vCard[i].push_back(numbers[i]);
+            vCard[i].emplace_back(numbers[i]);
             numbers.erase(numbers.begin() + j);
         }
-        vCard
-    }
+
+   }
 }
 
 void Card::print(std::ostream &out) const {
     out << "Card #" << m_cardIndex << std::endl;
-    for(int i = 0; i < m_cardSize; i++){
+    for (int j = 0; j < m_cardSize; j++) {
+        for (int i = 0; i < m_cardSize; i++) {
+            out << "+----";
+        }
+        out << "+\n";
+        for (int i = 0; i < m_cardSize; i++) {
+            out << "|" << std::setw(4) << std::left << vCard[j][i];
+        }
+        out << "|\n";
+    }
+    for (int i = 0; i < m_cardSize; i++){
         out << "+----";
     }
     out << "+\n";
-    for(int i = 0; i < m_cardSize; i++){
-        out << "|" << std::setw(4) << std::left << ;
-        out << "|\n";
-    }
 }
