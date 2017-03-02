@@ -3,30 +3,26 @@
 //
 
 #include "Card.hpp"
-#include <vector>
-#include <algorithm>
 #include <iomanip>
 
 Card::Card(int cardSize, int numberMax, int cardIndex):
-    m_cardSize(cardSize), m_numberMax(numberMax), m_cardIndex(cardIndex)
-{
-
-   // std::vector<std::vector<int>> vCard;
-    for(int i = 1; i < m_numberMax; i++){
+    m_cardSize(cardSize), m_numberMax(numberMax), m_cardIndex(cardIndex) {
+    for (int i = 1; i <= m_numberMax; i++) {
         numbers.push_back(i);
     }
-    for(int i = 0; i < m_numberMax; i++){
+    for (int i = 0; i < m_numberMax; i++) {
+        std::vector<int> tmpCard;
         std::random_shuffle(numbers.begin(), numbers.end());
         for (int j = 0; j < m_cardSize; ++j) {
-            vCard[i].emplace_back(numbers[i]);
-            numbers.erase(numbers.begin() + j);
+            tmpCard.emplace_back(numbers[j]);
         }
+        vCard.emplace_back(tmpCard);
+    }
 
-   }
 }
 
 void Card::print(std::ostream &out) const {
-    out << "Card #" << m_cardIndex << std::endl;
+    out << "Card #" << m_cardIndex+1 << std::endl;
     for (int j = 0; j < m_cardSize; j++) {
         for (int i = 0; i < m_cardSize; i++) {
             out << "+----";

@@ -23,17 +23,17 @@ void UserInterface::run()
     while (keepGoing)
     {
         std::string command = menu.show();
-        if (command=="C")
+        if (command=="C" || command=="c")
         {
             createDeck();
         }
-        else if (command=="D")
+        else if (command=="D" || command=="d")
         {
             if (currentDeck)
                 delete currentDeck;
             currentDeck = nullptr;
         }
-        else if (command=="X")
+        else if (command=="X" || command=="x")
         {
             keepGoing = false;
         }
@@ -78,20 +78,20 @@ void UserInterface::deckMenu()
     while (keepGoing)
     {
         std::string command = menu.show();
-        if (command=="P")
+        if (command=="P" || command=="p")
         {
             printCard();
         }
-        else if (command=="D")
+        else if (command=="D" || command=="d")
         {
             std::cout << std::endl;
             currentDeck->print(std::cout);
         }
-        else if (command=="S")
+        else if (command=="S" || command=="s")
         {
             saveDeck();
         }
-        else if (command=="X")
+        else if (command=="X" || command=="x")
         {
             keepGoing = false;
         }
