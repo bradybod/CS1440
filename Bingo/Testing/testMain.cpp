@@ -25,5 +25,16 @@ int main()
     menuTester.testConstructorAndGetter();
 
     CardTester cardTester;
-    cardTester.testDuplicates();
+    printf("\nTest Suite: CardTester::testDuplicates\n");
+    cardTester.testDuplicates(1);
+    cardTester.testDuplicates(2);
+    cardTester.testDuplicates(3);
+    printf("\nTest Suite: CardTester::testMinimums\n");
+    cardTester.testMinimums(0,15,1);
+    cardTester.testMinimums(1,14,2);
+    cardTester.testMinimums(2,13,3);
+    printf("\nTest Suite: CardTester::testMaximums\n");
+    cardTester.testMinimums(4,15,1);
+    cardTester.testMinimums(15,40,2);
+    cardTester.testMinimums(16,42,3);
 }

@@ -8,7 +8,7 @@ Deck::Deck(int cardSize, int cardCount, int numberMax)
         : m_cardSize(cardSize), m_cardCount(cardCount), m_numberMax(numberMax)
 {
     // TODO: Implement
-    for(int i = 0; i <= m_cardCount; i++){
+    for(int i = 0; i < m_cardCount; i++){
         Card* pCard = new Card(cardSize, numberMax, i);
         deck.push_back(pCard);
     }

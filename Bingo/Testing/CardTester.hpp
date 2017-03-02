@@ -8,7 +8,10 @@
 
 class CardTester {
 public:
-    void testDuplicates();
+    void testDuplicates(int testCases);
+    void testMinimums(int size, int num, int testCases);
+    void testMaximums(int size, int num, int testCase);
+
 };
 
 
