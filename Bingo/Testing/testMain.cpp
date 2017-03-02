@@ -7,6 +7,7 @@
 
 #include "MenuOptionTester.h"
 #include "MenuTester.h"
+#include "CardTester.hpp"
 
 int main()
 {
@@ -22,4 +23,7 @@ int main()
 
     MenuTester menuTester;
     menuTester.testConstructorAndGetter();
+
+    CardTester cardTester;
+    cardTester.testDuplicates();
 }

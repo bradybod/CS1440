@@ -44,6 +44,9 @@ void UserInterface::createDeck()
 {
     // Get the user to specify the card size, max number, and number of cards
     int cardSize = getNumberInput("Enter card size", 3, 15);
+
+
+
     if (cardSize < 0)
         return;
 
@@ -101,11 +104,11 @@ void UserInterface::deckMenu()
 void UserInterface::printCard()
 {
     int cardToPrint = getNumberInput("Id of card to print", 1, 9999);
-    if (cardToPrint>0)
+    if (cardToPrint>0 && cardToPrint<9999)
     {
         std::cout << std::endl;
         currentDeck->print(std::cout, cardToPrint);
-    }
+    }else{printCard();}
 }
 
 void UserInterface::saveDeck()
@@ -148,8 +151,13 @@ int UserInterface::getNumberInput(std::string prompt, int rangeMin, int rangeMax
             gotValidInput = true;
         } else
         {
-            result = std::stoi(userInput);
-            gotValidInput = (rangeMin <= result && result <= rangeMax);
+            try {
+                result = std::stoi(userInput);
+                gotValidInput = (rangeMin <= result && result <= rangeMax);
+            } catch (std::invalid_argument) {
+                gotValidInput = false;
+            }
+
         }
     } while (!gotValidInput);
     return result;

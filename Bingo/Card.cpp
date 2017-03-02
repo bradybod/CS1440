@@ -10,14 +10,18 @@ Card::Card(int cardSize, int numberMax, int cardIndex):
     for (int i = 1; i <= m_numberMax; i++) {
         numbers.push_back(i);
     }
-    for (int i = 0; i < m_numberMax; i++) {
+    std::random_shuffle(numbers.begin(), numbers.end());
+    int count = 0;
+    for (int i = 0; i < m_numberMax * m_numberMax; i++) {
         std::vector<int> tmpCard;
-        std::random_shuffle(numbers.begin(), numbers.end());
         for (int j = 0; j < m_cardSize; ++j) {
-            tmpCard.emplace_back(numbers[j]);
+            tmpCard.emplace_back(numbers[count]);
+           // numbers.erase(numbers.begin()+j);
+            count++;
         }
         vCard.emplace_back(tmpCard);
     }
+
 
 }
 
