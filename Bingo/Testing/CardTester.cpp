@@ -4,6 +4,8 @@
 
 #include "CardTester.hpp"
 #include "../Card.hpp"
+#include <sstream>
+#include <string>
 
 #include "iomanip"
 
@@ -12,10 +14,15 @@ void CardTester::testDuplicates(int testCase)
 {
     printf("Test Case %u", testCase);
     int size = (std::rand() % 13)+3;
-    int cMax = (2*(2*(size * size)));
-    int cMin = (size*size);
+  //  printf("size %u\n", size);
+    int cMin = 2*size*size;
+    int cMax = 2*cMin;
+    //printf("cMax %u\n", cMax);
+
     int dif = cMax-cMin;
     int bingoNum = std::rand()% dif + cMin;
+   // printf("bingoNum %u\n", bingoNum);
+
     Card testCard(size,bingoNum,0);
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
@@ -46,18 +53,19 @@ void CardTester::testDuplicates(int testCase)
     printf(" Pass\n");
 }
 
-void CardTester::testMinimums(int size, int num, int testCase){
+void CardTester::testConstructor(int size, int num, int index, int testCase) {
     printf("Test Case %u", testCase);
-    Card testCard(size,num,0);
-    if(testCard.m_isValid){
-        printf(" TEST FAILED WITH INVALID NUMBERS\n");
-    }else{printf(" Pass\n");}
-}
+    Card testCard(size, num, index);
+    if (testCard.m_cardSize != size) {
+        printf(" TEST FAILED SIZE IS NOT AS SPECIFIED\n");
+    }
+    if (testCard.m_numberMax != num) {
+        printf(" TEST FAILED MAX NUMBER IS NOT AS SPECIFIED\n");
+    }
+    if (testCard.m_cardIndex != index) {
+        printf(" TEST FAILED CARD INDEX IS NOT AS SPECIFIED\n");
+        //printf("%u\n", testCard.m_cardIndex);
 
-void CardTester::testMaximums(int size, int num, int testCase){
-    printf("Test Case %u", testCase);
-    Card testCard(size,num,0);
-    if(testCard.m_isValid){
-        printf(" TEST FAILED WITH INVALID NUMBERS\n");
-    }else{printf(" Pass\n");}
+    }else {printf(" Pass\n");}
+
 }

@@ -8,6 +8,7 @@
 #include "MenuOptionTester.h"
 #include "MenuTester.h"
 #include "CardTester.hpp"
+#include "DeckTester.hpp"
 
 int main()
 {
@@ -29,12 +30,21 @@ int main()
     cardTester.testDuplicates(1);
     cardTester.testDuplicates(2);
     cardTester.testDuplicates(3);
-    printf("\nTest Suite: CardTester::testMinimums\n");
-    cardTester.testMinimums(0,15,1);
-    cardTester.testMinimums(1,14,2);
-    cardTester.testMinimums(2,13,3);
-    printf("\nTest Suite: CardTester::testMaximums\n");
-    cardTester.testMinimums(4,15,1);
-    cardTester.testMinimums(15,40,2);
-    cardTester.testMinimums(16,42,3);
+
+    printf("\nTest Suite: CardTester::testConstructor\n");
+    cardTester.testConstructor(15, 400, 3, 1);
+    cardTester.testConstructor(10, 550, 10, 2);
+    cardTester.testConstructor(9, 300, 100, 3);
+
+    DeckTester deckTester;
+    printf("\nTest Suite: DeckTester::testConstructor\n");
+    deckTester.testConstructor(3, 18, 3, 1);
+    deckTester.testConstructor(15, 900, 1000, 2);
+    deckTester.testConstructor(8, 100, 3, 3);
+
+    printf("\nTest Suite: DeckTester::testConstructor\n");
+    deckTester.testNoDecksAreTheSame(1);
+    deckTester.testNoDecksAreTheSame(2);
+    deckTester.testNoDecksAreTheSame(3);
+
 }

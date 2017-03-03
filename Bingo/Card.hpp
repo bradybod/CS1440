@@ -10,6 +10,9 @@
 class Card {
 public:
     friend class CardTester;
+    friend class DeckTester;
+
+
     Card(int cardSize, int numberMax, int cardIndex);
     void print(std::ostream& out) const;
 

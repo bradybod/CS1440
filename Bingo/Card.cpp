@@ -6,10 +6,7 @@
 #include <iomanip>
 
 Card::Card(int cardSize, int numberMax, int cardIndex):
-    m_cardSize(cardSize), m_numberMax(numberMax), m_cardIndex(cardIndex), m_isValid(true){
-    int cMax = (2*(2*(m_cardSize * m_cardSize)));
-    int cMin = (m_cardSize*m_cardSize);
-    if(cardSize >= 3 && numberMax < cMax && numberMax > cMin) {
+    m_cardSize(cardSize), m_numberMax(numberMax), m_cardIndex(cardIndex), m_isValid(false){
         for (int i = 1; i <+ m_numberMax; i++) {
             numbers.push_back(i);
         }
@@ -22,8 +19,9 @@ Card::Card(int cardSize, int numberMax, int cardIndex):
                 count++;
             }
             vCard.emplace_back(tmpCard);
+            m_isValid = true;
         }
-    }else{m_isValid = false;}
+
 }
 
 void Card::print(std::ostream &out) const {
@@ -43,3 +41,4 @@ void Card::print(std::ostream &out) const {
     }
     out << "+\n";
 }
+

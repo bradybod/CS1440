@@ -7,6 +7,9 @@
 
 
 class DeckTester {
+public:
+    void testConstructor(int size, int num, int index, int testCase);
+    void testNoDecksAreTheSame(int testCase);
 
 };
 

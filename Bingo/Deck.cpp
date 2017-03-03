@@ -17,7 +17,7 @@ Deck::Deck(int cardSize, int cardCount, int numberMax)
 Deck::~Deck()
 {
     // TODO: Implement
-    for(int i = 0; i <= deck.size(); i++){
+    for(int i = 0; i < deck.size(); i++){
         delete deck[i];
         deck[i]=nullptr;
     }
@@ -38,6 +38,8 @@ void Deck::print(std::ostream& out, int cardIndex) const
     deck[cardIndex - 1]->print(out);
 
 }
+
+
 
 
 

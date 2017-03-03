@@ -14,6 +14,7 @@
 class Deck {
 
 public:
+    friend class DeckTester;
     Deck(int cardSize, int cardCount, int numberMax);
     ~Deck();
 
@@ -22,9 +23,9 @@ public:
 
 private:
     std::vector<Card*> deck;
-    int m_cardSize = 0;
-    int m_numberMax = 0;
-    int m_cardCount = 0;
+    int m_cardSize;
+    int m_numberMax;
+    int m_cardCount;
 };
 
 #endif //BINGO_DECK_H
