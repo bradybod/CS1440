@@ -5,52 +5,46 @@
 #include "CardTester.hpp"
 #include "../Card.hpp"
 #include <sstream>
-#include <string>
-
+#include <set>
 #include "iomanip"
 
 
 void CardTester::testDuplicates(int testCase)
 {
+    //Creates Random Card
     printf("Test Case %u", testCase);
     int size = (std::rand() % 13)+3;
-  //  printf("size %u\n", size);
     int cMin = 2*size*size;
     int cMax = 2*cMin;
-    //printf("cMax %u\n", cMax);
-
     int dif = cMax-cMin;
     int bingoNum = std::rand()% dif + cMin;
-   // printf("bingoNum %u\n", bingoNum);
-
     Card testCard(size,bingoNum,0);
-        for (int i = 0; i < size; i++) {
-            for (int j = 0; j < size; j++) {
-                for (int k = 0; k < size; k++) {
-                    for (int l = 0; l < size; l++) {
-                        if (testCard.vCard[i][j] == testCard.vCard[k][l] && !(i == k && j == l)) {
-                            printf("CardTester::testDuplicates::There are duplicates on card\n");
-                            //Prints card if its bad
-                            for (int m = 0; m < size; m++) {
-                                for (int m = 0; m < size; m++) {
-                                    std::cout << "+----";
-                                }
-                                std::cout << "+\n";
-                                for (int n = 0; n < size; n++) {
-                                    std::cout << "|" << std::setw(4) << std::left << testCard.vCard[m][n];
-                                }
-                                std::cout << "|\n";
-                            }
-                            for (int o = 0; o < size; o++) {
-                                std::cout << "+----";
-                            }
-                            std::cout << "+\n";
-                        }
-                    }
-                }
+    //Creates a set
+    std::set<int> set;
+    for(int i  = 0; i < size; i++){
+        for(int j = 0; j < size; j++){
+            for(int k = 0; k < size; k++){
+                set.insert(testCard.vCard[i][j]);
             }
         }
-    printf(" Pass\n");
+    }
+    if(set.size() == size*size){
+        printf(" Pass\n");
+    }else{printf("There is a Duplicate Card");
+        for (int m = 0; m < size; m++) {
+            for (int n = 0; n < size; n++) {
+                std::cout << "+----";
+            }
+            std::cout << "+\n";
+            for (int n = 0; n < size; n++) {
+                std::cout << "|" << std::setw(4) << std::left << testCard.vCard[m][n];
+            }
+            std::cout << "|\n";
+        }
+        for (int o = 0; o < size; o++) {
+            std::cout << "+----";
+        }
+        std::cout << "+\n";}
 }
 
 void CardTester::testConstructor(int size, int num, int index, int testCase) {
@@ -64,8 +58,6 @@ void CardTester::testConstructor(int size, int num, int index, int testCase) {
     }
     if (testCard.m_cardIndex != index) {
         printf(" TEST FAILED CARD INDEX IS NOT AS SPECIFIED\n");
-        //printf("%u\n", testCard.m_cardIndex);
-
     }else {printf(" Pass\n");}
 
 }

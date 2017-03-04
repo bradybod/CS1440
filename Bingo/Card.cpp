@@ -6,7 +6,7 @@
 #include <iomanip>
 
 Card::Card(int cardSize, int numberMax, int cardIndex):
-    m_cardSize(cardSize), m_numberMax(numberMax), m_cardIndex(cardIndex), m_isValid(false){
+    m_cardSize(cardSize), m_numberMax(numberMax), m_cardIndex(cardIndex){
         for (int i = 1; i <+ m_numberMax; i++) {
             numbers.push_back(i);
         }
@@ -19,7 +19,6 @@ Card::Card(int cardSize, int numberMax, int cardIndex):
                 count++;
             }
             vCard.emplace_back(tmpCard);
-            m_isValid = true;
         }
 
 }

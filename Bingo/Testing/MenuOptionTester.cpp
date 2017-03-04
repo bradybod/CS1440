@@ -13,7 +13,7 @@ void MenuOptionTester::testConstructorAndGetter()
     std::cout << std::endl  << "Test Suite: MenuOptionTester::testConstructorAndGetter" << std::endl;
 
     {
-        std::cout << "Test case 1" << std::endl;
+        std::cout << "Test case 1";
 
         MenuOption option("A", "Test option A");
         if (option.getCommand()!="A")
@@ -25,11 +25,11 @@ void MenuOptionTester::testConstructorAndGetter()
         {
             std::cout << "Failure in constructor: unexpected value for getCommand of " << option.getDescription() << std::endl;
             return;
-        }
+        }else{printf(" Pass\n");}
     }
 
     {
-        std::cout << "Test case 2" << std::endl;
+        std::cout << "Test case 2" ;
 
         MenuOption option("", "");
         if (option.getCommand()!="")
@@ -41,7 +41,7 @@ void MenuOptionTester::testConstructorAndGetter()
         {
             std::cout << "Failure in constructor: unexpected value for getCommand" << std::endl;
             return;
-        }
+        }else{printf(" Pass\n");}
     }
 
 }

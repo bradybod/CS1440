@@ -27,7 +27,7 @@ Deck::~Deck()
 void Deck::print(std::ostream& out) const
 {
     // TODO: Implement
-    for(int i = 0; i <= m_cardCount; i++){
+    for(int i = 0; i < m_cardCount; i++){
         deck[i]->print(out);
     }
 }

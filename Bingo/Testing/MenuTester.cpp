@@ -14,7 +14,7 @@ void MenuTester::testConstructorAndGetter()
     std::cout << std::endl  << "Test Suite: MenuTester::testConstructorAndGetter" << std::endl;
 
     {
-        std::cout << "Test case 1" << std::endl;
+        std::cout << "Test case 1";
 
         Menu menu("Deck");
         menu.addOption("A", "Test option A");
@@ -81,11 +81,11 @@ void MenuTester::testConstructorAndGetter()
         {
             std::cout << "Failure in constructor: unexpected option" << std::endl;
             return;
-        }
+        }else{printf(" Pass\n");}
     }
 
     {
-        std::cout << "Test case 2" << std::endl;
+        std::cout << "Test case 2";
 
         Menu menu("");
 
@@ -111,7 +111,8 @@ void MenuTester::testConstructorAndGetter()
         {
             std::cout << "Failure in constructor: unexpected option" << std::endl;
             return;
-        }
+        }else{printf(" Pass\n");}
+
 
     }
 

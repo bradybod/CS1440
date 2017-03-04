@@ -42,7 +42,7 @@ int main()
     deckTester.testConstructor(15, 900, 1000, 2);
     deckTester.testConstructor(8, 100, 3, 3);
 
-    printf("\nTest Suite: DeckTester::testConstructor\n");
+    printf("\nTest Suite: DeckTester::testNoDecksAreTheSame\n");
     deckTester.testNoDecksAreTheSame(1);
     deckTester.testNoDecksAreTheSame(2);
     deckTester.testNoDecksAreTheSame(3);

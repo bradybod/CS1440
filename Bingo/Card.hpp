@@ -21,7 +21,6 @@ private:
     int m_numberMax;
     int m_cardIndex;
     std::vector<int> numbers;
-    bool m_isValid;
     std::vector<std::vector<int>> vCard;
 };
 
