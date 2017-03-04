@@ -30,7 +30,7 @@ void DeckTester::testNoDecksAreTheSame(int testCase){
     int cMax = 2*cMin;
     int dif = cMax-cMin;
     int bingoNum = std::rand()% dif + cMin;
-    int numOfCards = (std::rand() % 9997) + 3;
+    int numOfCards = (std::rand() % 997) + 3;
     Deck testDeck(size, numOfCards, bingoNum);
 
     std::set<int> hash;
