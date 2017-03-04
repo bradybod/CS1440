@@ -1,0 +1,4 @@
+/Users/bradybodily/Repositories/CS1440/Bingo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bradybodily/Repositories/CS1440/Bingo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/bradybodily/Repositories/CS1440/Bingo/cmake-build-debug/CMakeFiles/Test.dir
+/Users/bradybodily/Repositories/CS1440/Bingo/cmake-build-debug/CMakeFiles/Bingo.dir
