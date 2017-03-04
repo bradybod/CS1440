@@ -30,7 +30,7 @@ void CardTester::testDuplicates(int testCase)
     }
     if(set.size() == size*size){
         printf(" Pass\n");
-    }else{printf("There is a Duplicate Card");
+    }else{printf("There is a Duplicate  in the Card");
         for (int m = 0; m < size; m++) {
             for (int n = 0; n < size; n++) {
                 std::cout << "+----";
