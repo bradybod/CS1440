@@ -16,6 +16,7 @@ CMakeFiles/Test.dir/MenuOption.cpp.o: ../MenuOption.cpp
 CMakeFiles/Test.dir/MenuOption.cpp.o: ../MenuOption.h
 
 CMakeFiles/Test.dir/Testing/CardTester.cpp.o: ../Card.hpp
+CMakeFiles/Test.dir/Testing/CardTester.cpp.o: ../Deck.h
 CMakeFiles/Test.dir/Testing/CardTester.cpp.o: ../Testing/CardTester.cpp
 CMakeFiles/Test.dir/Testing/CardTester.cpp.o: ../Testing/CardTester.hpp
 

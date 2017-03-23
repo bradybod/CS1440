@@ -16,6 +16,7 @@ CMakeFiles/Bingo.dir/MenuOption.cpp.o: ../MenuOption.cpp
 CMakeFiles/Bingo.dir/MenuOption.cpp.o: ../MenuOption.h
 
 CMakeFiles/Bingo.dir/Testing/CardTester.cpp.o: ../Card.hpp
+CMakeFiles/Bingo.dir/Testing/CardTester.cpp.o: ../Deck.h
 CMakeFiles/Bingo.dir/Testing/CardTester.cpp.o: ../Testing/CardTester.cpp
 CMakeFiles/Bingo.dir/Testing/CardTester.cpp.o: ../Testing/CardTester.hpp
 

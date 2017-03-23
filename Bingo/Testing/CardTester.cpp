@@ -5,8 +5,10 @@
 #include "CardTester.hpp"
 #include "../Card.hpp"
 #include <sstream>
+#include <ostream>
 #include <set>
 #include "iomanip"
+#include "../Deck.h"
 
 
 void CardTester::testDuplicates(int testCase)
@@ -61,3 +63,4 @@ void CardTester::testConstructor(int size, int num, int index, int testCase) {
     }else {printf(" Pass\n");}
 
 }
+

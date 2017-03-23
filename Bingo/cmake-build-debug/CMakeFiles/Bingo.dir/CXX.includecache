@@ -61,10 +61,14 @@ CardTester.hpp
 /Users/bradybodily/Repositories/CS1440/Bingo/Card.hpp
 sstream
 -
+ostream
+-
 set
 -
 iomanip
 /Users/bradybodily/Repositories/CS1440/Bingo/Testing/iomanip
+../Deck.h
+/Users/bradybodily/Repositories/CS1440/Bingo/Deck.h
 
 /Users/bradybodily/Repositories/CS1440/Bingo/Testing/CardTester.hpp
 
