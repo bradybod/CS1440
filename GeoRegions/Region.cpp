@@ -16,6 +16,7 @@ const std::string regionDelimiter = "^^^";
 const int TAB_SIZE = 4;
 unsigned int Region::m_nextId = 0;
 
+
 Region* Region::create(std::istream &in)
 {
     Region* region = nullptr;
@@ -66,7 +67,16 @@ Region* Region::create(RegionType regionType, const std::string& data)
             case NationType:
                 region = new Nation(fields);
                 break;
-       // TODO: Add cases for State, County, and City
+       // DONE: Add cases for State, County, and City
+            case StateType:
+                region = new State(fields);
+                break;
+            case CountyType:
+                region = new County(fields);
+                break;
+            case CityType:
+                region = new City(fields);
+                break;
             default:
                 break;
         }
@@ -120,7 +130,15 @@ Region::Region(RegionType type, const std::string data[]) :
 
 Region::~Region()
 {
-    // TODO: cleanup any dynamically allocated objects
+    // Done: cleanup any dynamically allocated objects
+    if(m_elementsAllocated != 0)
+    {
+        for (int i = 0; i < m_countRegion; i++ )
+        {
+            delete m_region[i];
+        }
+        delete [] m_region;
+    }
 }
 
 std::string Region::getRegionLabel() const
@@ -128,9 +146,13 @@ std::string Region::getRegionLabel() const
     return regionLabel(getType());
 }
 
-unsigned int Region::computeTotalPopulation()
-{
-    // TODO: implement computeTotalPopulation, such that the result is m_population + the total population for all sub-regions
+unsigned int Region::computeTotalPopulation(unsigned int pop) {
+    // DONE: implement computeTotalPopulation, such that the result is m_population + the total population for all sub-regions
+    unsigned int result = pop;
+    for (int i = 0; i < m_countRegion; ++i) {
+        result += m_region[i]->computeTotalPopulation(m_region[i]->m_population);
+    }
+    return result;
 }
 
 void Region::list(std::ostream& out)
@@ -138,9 +160,14 @@ void Region::list(std::ostream& out)
     out << std::endl;
     out << getName() << ":" << std::endl;
 
-    // TODO: implement the loop in the list method
-    // foreach subregion, print out
-    //      id    name
+    // TODO: implement the loop in the list method foreach subregion, print out id name
+    int i = 0;
+    do {
+        if(m_region[i] != nullptr && m_region[i]->m_isValid){
+            m_region[i]->display(out, 0, false);
+            i++;
+        }
+    }while (i < m_countRegion);
 }
 
 void Region::display(std::ostream& out, unsigned int displayLevel, bool showChild)
@@ -150,11 +177,12 @@ void Region::display(std::ostream& out, unsigned int displayLevel, bool showChil
         out << std::setw(displayLevel * TAB_SIZE) << " ";
     }
 
-    unsigned totalPopulation = computeTotalPopulation();
+    unsigned totalPopulation = computeTotalPopulation(0);
     double area = getArea();
     double density = (double) totalPopulation / area;
 
-    // TODO: compute the totalPopulation using a method
+    // DONE: compute the totalPopulation using a method
+    compute(totalPopulation);
 
     out << std::setw(6) << getId() << "  "
         << getName() << ", population="
@@ -164,9 +192,16 @@ void Region::display(std::ostream& out, unsigned int displayLevel, bool showChil
 
     if (showChild)
     {
-        // TODO: implement loop in display method
+        // DONE: implement loop in display method
         // foreach subregion
         //      display that subregion at displayLevel+1 with the same showChild value
+        int i = 0;
+        do {
+            if(m_region[i] != nullptr && m_region[i]->m_isValid){
+                m_region[i]->display(out, displayLevel+1, showChild);
+                i++;
+            }
+        }while (i < m_countRegion);
     }
 }
 
@@ -178,9 +213,16 @@ void Region::save(std::ostream& out)
         << "," << getArea()
         << std::endl;
 
-    // TODO: implement loop in save method to save each sub-region
+    // DONE: implement loop in save method to save each sub-region
     // foreach subregion,
     //      save that region
+    int i = 0;
+    do {
+        if(m_region[i] != nullptr && m_region[i]->m_isValid){
+            m_region[i]->save(out);
+            i++;
+        }
+    }while (i < m_countRegion);
 
     out << regionDelimiter << std::endl;
 }
@@ -207,8 +249,10 @@ void Region::loadChildren(std::istream& in)
             Region* child = create(line);
             if (child!= nullptr)
             {
-                // TODO: Add the new sub-region to this region
+                // DONE: Add the new sub-region to this region
+                this->addRegion(child);
                 child->loadChildren(in);
+
             }
         }
     }
@@ -220,4 +264,92 @@ unsigned int Region::getNextId()
         m_nextId=1;
 
     return m_nextId++;
+}
+
+void Region::increaseSize() {
+    int i = 0;
+    m_elementsAllocated *= 2;
+    Region** tmpRegion = new Region*[m_elementsAllocated];
+    do{
+        tmpRegion[i] = m_region[i];
+        i++;
+    }while(i < m_elementsAllocated);
+
+    delete [] m_region;
+    m_region = tmpRegion;
+    //clean up
+    delete [] tmpRegion;
+    tmpRegion = nullptr;
+}
+unsigned int Region::compute(unsigned int pop){
+    int population = pop;
+    if(m_region!= nullptr) {
+        for (int i = 0; i < m_countRegion; i++) {
+            population += m_region[i]->getPopulation();
+            population = m_region[i]->compute(population);
+        }
+    }
+    return population;
+}
+
+void Region::addRegion(Region* region){
+    if(m_region== nullptr){
+        m_region = new Region* [10];
+    }
+        if (region!= nullptr)
+        {
+            if (m_elementsAllocated == 0) {
+                m_region = new Region *[10];
+                m_elementsAllocated = 10;
+            }
+
+            if (m_countRegion == m_elementsAllocated)
+                increaseSize();
+
+            m_region[m_countRegion++] = region;
+        }
+
+}
+
+Region *Region::getSubRegionByIndex(unsigned int index) {
+    Region* result = nullptr;
+    if(m_countRegion > 0 && index < m_countRegion){
+        result = m_region[index];
+    }
+    return result;
+}
+
+Region *Region::lookUpSubRegionByIndex(unsigned int index) {
+    Region* result = nullptr;
+    for(int i = 0; i < m_countRegion; i++){
+        if(m_region[i]->getId() == index){
+            result = m_region[i];
+        }
+    }
+    return result;
+}
+
+void Region::removeRegion(Region* region) {
+    {
+        int position = 0;
+
+        if (region == nullptr) {
+            printf("Region does not exist!\n");
+        } else {
+            for (int i = 0; i < m_countRegion; ++i) {
+                if (m_region[i]->getId() == region->getId()) {
+                    position = i;
+                }
+            }
+
+            delete region;
+            region = nullptr;
+
+            for (int j = position; j < m_countRegion - 1; j++) {
+                m_region[j] = m_region[j + 1];
+            }
+            m_countRegion--;
+            printf("Deleted!\n");
+        }
+    }
 }
