@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bradybodily/Repositories/CS1440/GeoRegions
+CMAKE_SOURCE_DIR = /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Test.dir/flags.make
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/testMain.cpp.o: ../Testing/testMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/Testing/testMain.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/testMain.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/Testing/testMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/Testing/testMain.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/testMain.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Testing/testMain.cpp
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/testMain.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/Testing/testMain.cpp > CMakeFiles/Test.dir/Testing/testMain.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Testing/testMain.cpp > CMakeFiles/Test.dir/Testing/testMain.cpp.i
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/testMain.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/Testing/testMain.cpp -o CMakeFiles/Test.dir/Testing/testMain.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Testing/testMain.cpp -o CMakeFiles/Test.dir/Testing/testMain.cpp.s
 
 CMakeFiles/Test.dir/Testing/testMain.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Test.dir/Testing/testMain.cpp.o.provides.build: CMakeFiles/Test.dir/T
 
 CMakeFiles/Test.dir/Utils.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Utils.cpp.o: ../Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/Utils.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Utils.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/Utils.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Utils.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Utils.cpp
 
 CMakeFiles/Test.dir/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Utils.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/Utils.cpp > CMakeFiles/Test.dir/Utils.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Utils.cpp > CMakeFiles/Test.dir/Utils.cpp.i
 
 CMakeFiles/Test.dir/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Utils.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/Utils.cpp -o CMakeFiles/Test.dir/Utils.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Utils.cpp -o CMakeFiles/Test.dir/Utils.cpp.s
 
 CMakeFiles/Test.dir/Utils.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Test.dir/Utils.cpp.o.provides.build: CMakeFiles/Test.dir/Utils.cpp.o
 
 CMakeFiles/Test.dir/MenuOption.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/MenuOption.cpp.o: ../MenuOption.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/MenuOption.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/MenuOption.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/MenuOption.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/MenuOption.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/MenuOption.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/MenuOption.cpp
 
 CMakeFiles/Test.dir/MenuOption.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/MenuOption.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/MenuOption.cpp > CMakeFiles/Test.dir/MenuOption.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/MenuOption.cpp > CMakeFiles/Test.dir/MenuOption.cpp.i
 
 CMakeFiles/Test.dir/MenuOption.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/MenuOption.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/MenuOption.cpp -o CMakeFiles/Test.dir/MenuOption.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/MenuOption.cpp -o CMakeFiles/Test.dir/MenuOption.cpp.s
 
 CMakeFiles/Test.dir/MenuOption.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Test.dir/MenuOption.cpp.o.provides.build: CMakeFiles/Test.dir/MenuOpt
 
 CMakeFiles/Test.dir/Menu.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Menu.cpp.o: ../Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/Menu.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Menu.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/Menu.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Menu.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Menu.cpp
 
 CMakeFiles/Test.dir/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Menu.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/Menu.cpp > CMakeFiles/Test.dir/Menu.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Menu.cpp > CMakeFiles/Test.dir/Menu.cpp.i
 
 CMakeFiles/Test.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Menu.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/Menu.cpp -o CMakeFiles/Test.dir/Menu.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Menu.cpp -o CMakeFiles/Test.dir/Menu.cpp.s
 
 CMakeFiles/Test.dir/Menu.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Test.dir/Menu.cpp.o.provides.build: CMakeFiles/Test.dir/Menu.cpp.o
 
 CMakeFiles/Test.dir/UserInterface.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/UserInterface.cpp.o: ../UserInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/UserInterface.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/UserInterface.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/UserInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/UserInterface.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/UserInterface.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/UserInterface.cpp
 
 CMakeFiles/Test.dir/UserInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/UserInterface.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/UserInterface.cpp > CMakeFiles/Test.dir/UserInterface.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/UserInterface.cpp > CMakeFiles/Test.dir/UserInterface.cpp.i
 
 CMakeFiles/Test.dir/UserInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/UserInterface.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/UserInterface.cpp -o CMakeFiles/Test.dir/UserInterface.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/UserInterface.cpp -o CMakeFiles/Test.dir/UserInterface.cpp.s
 
 CMakeFiles/Test.dir/UserInterface.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Test.dir/UserInterface.cpp.o.provides.build: CMakeFiles/Test.dir/User
 
 CMakeFiles/Test.dir/World.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/World.cpp.o: ../World.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/World.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/World.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/World.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/World.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/World.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/World.cpp
 
 CMakeFiles/Test.dir/World.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/World.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/World.cpp > CMakeFiles/Test.dir/World.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/World.cpp > CMakeFiles/Test.dir/World.cpp.i
 
 CMakeFiles/Test.dir/World.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/World.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/World.cpp -o CMakeFiles/Test.dir/World.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/World.cpp -o CMakeFiles/Test.dir/World.cpp.s
 
 CMakeFiles/Test.dir/World.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Test.dir/World.cpp.o.provides.build: CMakeFiles/Test.dir/World.cpp.o
 
 CMakeFiles/Test.dir/Nation.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Nation.cpp.o: ../Nation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/Nation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Nation.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/Nation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/Nation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Nation.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Nation.cpp
 
 CMakeFiles/Test.dir/Nation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Nation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/Nation.cpp > CMakeFiles/Test.dir/Nation.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Nation.cpp > CMakeFiles/Test.dir/Nation.cpp.i
 
 CMakeFiles/Test.dir/Nation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Nation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/Nation.cpp -o CMakeFiles/Test.dir/Nation.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Nation.cpp -o CMakeFiles/Test.dir/Nation.cpp.s
 
 CMakeFiles/Test.dir/Nation.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Test.dir/Nation.cpp.o.provides.build: CMakeFiles/Test.dir/Nation.cpp.
 
 CMakeFiles/Test.dir/State.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/State.cpp.o: ../State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/State.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/State.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/State.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/State.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/State.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/State.cpp
 
 CMakeFiles/Test.dir/State.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/State.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/State.cpp > CMakeFiles/Test.dir/State.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/State.cpp > CMakeFiles/Test.dir/State.cpp.i
 
 CMakeFiles/Test.dir/State.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/State.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/State.cpp -o CMakeFiles/Test.dir/State.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/State.cpp -o CMakeFiles/Test.dir/State.cpp.s
 
 CMakeFiles/Test.dir/State.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/Test.dir/State.cpp.o.provides.build: CMakeFiles/Test.dir/State.cpp.o
 
 CMakeFiles/Test.dir/County.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/County.cpp.o: ../County.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/County.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/County.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/County.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/County.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/County.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/County.cpp
 
 CMakeFiles/Test.dir/County.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/County.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/County.cpp > CMakeFiles/Test.dir/County.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/County.cpp > CMakeFiles/Test.dir/County.cpp.i
 
 CMakeFiles/Test.dir/County.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/County.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/County.cpp -o CMakeFiles/Test.dir/County.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/County.cpp -o CMakeFiles/Test.dir/County.cpp.s
 
 CMakeFiles/Test.dir/County.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/Test.dir/County.cpp.o.provides.build: CMakeFiles/Test.dir/County.cpp.
 
 CMakeFiles/Test.dir/City.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/City.cpp.o: ../City.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Test.dir/City.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/City.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/City.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Test.dir/City.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/City.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/City.cpp
 
 CMakeFiles/Test.dir/City.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/City.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/City.cpp > CMakeFiles/Test.dir/City.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/City.cpp > CMakeFiles/Test.dir/City.cpp.i
 
 CMakeFiles/Test.dir/City.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/City.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/City.cpp -o CMakeFiles/Test.dir/City.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/City.cpp -o CMakeFiles/Test.dir/City.cpp.s
 
 CMakeFiles/Test.dir/City.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/Test.dir/City.cpp.o.provides.build: CMakeFiles/Test.dir/City.cpp.o
 
 CMakeFiles/Test.dir/Region.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Region.cpp.o: ../Region.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Test.dir/Region.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Region.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/Region.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Test.dir/Region.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Region.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Region.cpp
 
 CMakeFiles/Test.dir/Region.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Region.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/Region.cpp > CMakeFiles/Test.dir/Region.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Region.cpp > CMakeFiles/Test.dir/Region.cpp.i
 
 CMakeFiles/Test.dir/Region.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Region.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/Region.cpp -o CMakeFiles/Test.dir/Region.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Region.cpp -o CMakeFiles/Test.dir/Region.cpp.s
 
 CMakeFiles/Test.dir/Region.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/Test.dir/Region.cpp.o.provides.build: CMakeFiles/Test.dir/Region.cpp.
 
 CMakeFiles/Test.dir/WorldUserInterface.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/WorldUserInterface.cpp.o: ../WorldUserInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Test.dir/WorldUserInterface.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/WorldUserInterface.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/WorldUserInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Test.dir/WorldUserInterface.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/WorldUserInterface.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/WorldUserInterface.cpp
 
 CMakeFiles/Test.dir/WorldUserInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/WorldUserInterface.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/WorldUserInterface.cpp > CMakeFiles/Test.dir/WorldUserInterface.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/WorldUserInterface.cpp > CMakeFiles/Test.dir/WorldUserInterface.cpp.i
 
 CMakeFiles/Test.dir/WorldUserInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/WorldUserInterface.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/WorldUserInterface.cpp -o CMakeFiles/Test.dir/WorldUserInterface.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/WorldUserInterface.cpp -o CMakeFiles/Test.dir/WorldUserInterface.cpp.s
 
 CMakeFiles/Test.dir/WorldUserInterface.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/Test.dir/WorldUserInterface.cpp.o.provides.build: CMakeFiles/Test.dir
 
 CMakeFiles/Test.dir/NationUserInterface.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/NationUserInterface.cpp.o: ../NationUserInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Test.dir/NationUserInterface.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/NationUserInterface.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/NationUserInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Test.dir/NationUserInterface.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/NationUserInterface.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/NationUserInterface.cpp
 
 CMakeFiles/Test.dir/NationUserInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/NationUserInterface.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/NationUserInterface.cpp > CMakeFiles/Test.dir/NationUserInterface.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/NationUserInterface.cpp > CMakeFiles/Test.dir/NationUserInterface.cpp.i
 
 CMakeFiles/Test.dir/NationUserInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/NationUserInterface.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/NationUserInterface.cpp -o CMakeFiles/Test.dir/NationUserInterface.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/NationUserInterface.cpp -o CMakeFiles/Test.dir/NationUserInterface.cpp.s
 
 CMakeFiles/Test.dir/NationUserInterface.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/Test.dir/NationUserInterface.cpp.o.provides.build: CMakeFiles/Test.di
 
 CMakeFiles/Test.dir/StateUserInterface.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/StateUserInterface.cpp.o: ../StateUserInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Test.dir/StateUserInterface.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/StateUserInterface.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/StateUserInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Test.dir/StateUserInterface.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/StateUserInterface.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/StateUserInterface.cpp
 
 CMakeFiles/Test.dir/StateUserInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/StateUserInterface.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/StateUserInterface.cpp > CMakeFiles/Test.dir/StateUserInterface.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/StateUserInterface.cpp > CMakeFiles/Test.dir/StateUserInterface.cpp.i
 
 CMakeFiles/Test.dir/StateUserInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/StateUserInterface.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/StateUserInterface.cpp -o CMakeFiles/Test.dir/StateUserInterface.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/StateUserInterface.cpp -o CMakeFiles/Test.dir/StateUserInterface.cpp.s
 
 CMakeFiles/Test.dir/StateUserInterface.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/Test.dir/StateUserInterface.cpp.o.provides.build: CMakeFiles/Test.dir
 
 CMakeFiles/Test.dir/CountyUserInterface.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/CountyUserInterface.cpp.o: ../CountyUserInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Test.dir/CountyUserInterface.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/CountyUserInterface.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/CountyUserInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Test.dir/CountyUserInterface.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/CountyUserInterface.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/CountyUserInterface.cpp
 
 CMakeFiles/Test.dir/CountyUserInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/CountyUserInterface.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/CountyUserInterface.cpp > CMakeFiles/Test.dir/CountyUserInterface.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/CountyUserInterface.cpp > CMakeFiles/Test.dir/CountyUserInterface.cpp.i
 
 CMakeFiles/Test.dir/CountyUserInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/CountyUserInterface.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/CountyUserInterface.cpp -o CMakeFiles/Test.dir/CountyUserInterface.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/CountyUserInterface.cpp -o CMakeFiles/Test.dir/CountyUserInterface.cpp.s
 
 CMakeFiles/Test.dir/CountyUserInterface.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/Test.dir/CountyUserInterface.cpp.o.provides.build: CMakeFiles/Test.di
 
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o: ../Testing/UtilsTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/Testing/UtilsTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Testing/UtilsTester.cpp
 
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/UtilsTester.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/Testing/UtilsTester.cpp > CMakeFiles/Test.dir/Testing/UtilsTester.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Testing/UtilsTester.cpp > CMakeFiles/Test.dir/Testing/UtilsTester.cpp.i
 
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/UtilsTester.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/Testing/UtilsTester.cpp -o CMakeFiles/Test.dir/Testing/UtilsTester.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Testing/UtilsTester.cpp -o CMakeFiles/Test.dir/Testing/UtilsTester.cpp.s
 
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o.provides.build: CMakeFiles/Test.di
 
 CMakeFiles/Test.dir/Testing/RegionTester.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Testing/RegionTester.cpp.o: ../Testing/RegionTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Test.dir/Testing/RegionTester.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/RegionTester.cpp.o -c /Users/bradybodily/Repositories/CS1440/GeoRegions/Testing/RegionTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Test.dir/Testing/RegionTester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/RegionTester.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Testing/RegionTester.cpp
 
 CMakeFiles/Test.dir/Testing/RegionTester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/RegionTester.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/GeoRegions/Testing/RegionTester.cpp > CMakeFiles/Test.dir/Testing/RegionTester.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Testing/RegionTester.cpp > CMakeFiles/Test.dir/Testing/RegionTester.cpp.i
 
 CMakeFiles/Test.dir/Testing/RegionTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/RegionTester.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/GeoRegions/Testing/RegionTester.cpp -o CMakeFiles/Test.dir/Testing/RegionTester.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/Testing/RegionTester.cpp -o CMakeFiles/Test.dir/Testing/RegionTester.cpp.s
 
 CMakeFiles/Test.dir/Testing/RegionTester.cpp.o.requires:
 
@@ -507,7 +507,7 @@ Test: CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o
 Test: CMakeFiles/Test.dir/Testing/RegionTester.cpp.o
 Test: CMakeFiles/Test.dir/build.make
 Test: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -540,6 +540,6 @@ CMakeFiles/Test.dir/clean:
 .PHONY : CMakeFiles/Test.dir/clean
 
 CMakeFiles/Test.dir/depend:
-	cd /Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bradybodily/Repositories/CS1440/GeoRegions /Users/bradybodily/Repositories/CS1440/GeoRegions /Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug /Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug /Users/bradybodily/Repositories/CS1440/GeoRegions/cmake-build-debug/CMakeFiles/Test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug /Users/bradybodily/Repositories/CS1440/CS1440/GeoRegions/cmake-build-debug/CMakeFiles/Test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Test.dir/depend
 

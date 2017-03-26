@@ -146,14 +146,25 @@ std::string Region::getRegionLabel() const
     return regionLabel(getType());
 }
 
-unsigned int Region::computeTotalPopulation(unsigned int pop) {
+unsigned int Region::computeTotalPopulation()
+{
     // DONE: implement computeTotalPopulation, such that the result is m_population + the total population for all sub-regions
-    unsigned int result = pop;
-    for (int i = 0; i < m_countRegion; ++i) {
-        result += m_region[i]->computeTotalPopulation(m_region[i]->m_population);
+
+    if (RegionType::CityType == getType())
+    {
+        return m_population;
+    }
+    unsigned int result = m_population;
+    for (int i = 0; i < m_countRegion; i++)
+    {
+        if (m_region != nullptr && m_region[i]->getIsValid())
+        {
+            result += m_region[i]->computeTotalPopulation();
+        }
     }
     return result;
 }
+
 
 void Region::list(std::ostream& out)
 {
@@ -161,13 +172,11 @@ void Region::list(std::ostream& out)
     out << getName() << ":" << std::endl;
 
     // TODO: implement the loop in the list method foreach subregion, print out id name
-    int i = 0;
-    do {
-        if(m_region[i] != nullptr && m_region[i]->m_isValid){
+    for (int i=0; i < m_countRegion; i++)
+    {
+        if (m_region[i]!= nullptr && m_region[i]->getIsValid())
             m_region[i]->display(out, 0, false);
-            i++;
-        }
-    }while (i < m_countRegion);
+    }
 }
 
 void Region::display(std::ostream& out, unsigned int displayLevel, bool showChild)
@@ -177,12 +186,12 @@ void Region::display(std::ostream& out, unsigned int displayLevel, bool showChil
         out << std::setw(displayLevel * TAB_SIZE) << " ";
     }
 
-    unsigned totalPopulation = computeTotalPopulation(0);
+    unsigned totalPopulation = computeTotalPopulation();
     double area = getArea();
     double density = (double) totalPopulation / area;
 
     // DONE: compute the totalPopulation using a method
-    compute(totalPopulation);
+    computeTotalPopulation();
 
     out << std::setw(6) << getId() << "  "
         << getName() << ", population="
@@ -190,18 +199,13 @@ void Region::display(std::ostream& out, unsigned int displayLevel, bool showChil
         << ", area=" << area
         << ", density=" << density << std::endl;
 
-    if (showChild)
-    {
+    if (showChild) {
         // DONE: implement loop in display method
         // foreach subregion
         //      display that subregion at displayLevel+1 with the same showChild value
-        int i = 0;
-        do {
-            if(m_region[i] != nullptr && m_region[i]->m_isValid){
-                m_region[i]->display(out, displayLevel+1, showChild);
-                i++;
-            }
-        }while (i < m_countRegion);
+        for (int i = 0; i < m_countRegion; ++i) {
+            m_region[i]->display(out, displayLevel + 1, showChild);
+        }
     }
 }
 
@@ -216,15 +220,12 @@ void Region::save(std::ostream& out)
     // DONE: implement loop in save method to save each sub-region
     // foreach subregion,
     //      save that region
-    int i = 0;
-    do {
-        if(m_region[i] != nullptr && m_region[i]->m_isValid){
+    for (int i=0; i<m_countRegion; i++) {
+        if (m_region[i]!= nullptr && m_region[i]->getIsValid())
             m_region[i]->save(out);
-            i++;
-        }
-    }while (i < m_countRegion);
-
+    }
     out << regionDelimiter << std::endl;
+
 }
 
 void Region::validate()
@@ -267,37 +268,24 @@ unsigned int Region::getNextId()
 }
 
 void Region::increaseSize() {
-    int i = 0;
+
     m_elementsAllocated *= 2;
-    Region** tmpRegion = new Region*[m_elementsAllocated];
-    do{
-        tmpRegion[i] = m_region[i];
-        i++;
-    }while(i < m_elementsAllocated);
+    Region** newRegion = new Region*[m_elementsAllocated];
+
+    for (int i=0; i<m_elementsAllocated; i++) {
+        newRegion[i] = m_region[i];
+    }
 
     delete [] m_region;
-    m_region = tmpRegion;
-    //clean up
-    delete [] tmpRegion;
-    tmpRegion = nullptr;
-}
-unsigned int Region::compute(unsigned int pop){
-    int population = pop;
-    if(m_region!= nullptr) {
-        for (int i = 0; i < m_countRegion; i++) {
-            population += m_region[i]->getPopulation();
-            population = m_region[i]->compute(population);
-        }
-    }
-    return population;
+
+    m_region = newRegion;
 }
 
 void Region::addRegion(Region* region){
     if(m_region== nullptr){
         m_region = new Region* [10];
     }
-        if (region!= nullptr)
-        {
+        if (region!= nullptr) {
             if (m_elementsAllocated == 0) {
                 m_region = new Region *[10];
                 m_elementsAllocated = 10;
