@@ -171,7 +171,7 @@ void Region::list(std::ostream& out)
     out << std::endl;
     out << getName() << ":" << std::endl;
 
-    // TODO: implement the loop in the list method foreach subregion, print out id name
+    // DONE: implement the loop in the list method foreach subregion, print out id name
     for (int i=0; i < m_countRegion; i++)
     {
         if (m_region[i]!= nullptr && m_region[i]->getIsValid())

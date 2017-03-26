@@ -446,12 +446,57 @@ void RegionTester::testSubRegions()
 {
     std::cout << "RegionTester::testSubRegions" << std::endl;
 
-    // TODO: Add test cases for managing sub-regions
+    // DONE: Add test cases for managing sub-regions
+    {
+        std::string inputFile = "SampleData/sampleData-4.txt";
+        std::ifstream inputStream(inputFile);
+        Region* world = Region::create(inputStream);
+
+        Region* subregion = world->lookUpSubRegionByIndex(16);
+        if (subregion->getId() != 16) {
+            std::cout << "Failed to get the correct region by id\n";
+            std::cout << "\t\tExpected 25, but got: " << subregion->getId() << "\"\n";
+            return;
+        }
+
+        std::string inputString = "Tiny Country,30,20";
+        Region *region = Region::create(Region::NationType,inputString);
+        world->addRegion(region);
+        if (world->lookUpSubRegionByIndex(region->getId()) != region) {
+            std::cout << "Failed to add a new region from: " << inputString << std::endl;
+            std::cout << "\t\tExpected region 28, but got: " << region->getId() << "\"\n";
+            return;
+        }
+
+        if (world->getSubRegionCount() != 4) {
+            std::cout << "Failed to get the correct sub-region count from\n" << inputFile << std::endl;
+            std::cout << "\t\tExpected 4, but got " << world->getSubRegionCount() << "\"\n";
+            return;
+        }
+    }
 }
 
-void RegionTester::testComputeTotalPopulation()
-{
+void RegionTester::testComputeTotalPopulation() {
     std::cout << "RegionTester::testComputeTotalPopulation" << std::endl;
+    // DONE: Add test cases for computeTotalPopulation
+    {
+        Region *world = Region::create(Region::WorldType, "TinyWorld,0,1000");
+        Region *nation = Region::create(Region::NationType, "TinyNation,5,500");
+        Region *state = Region::create(Region::StateType, "State,4,250");
+        Region *county = Region::create(Region::CountyType, "County,3,125");
+        Region *city = Region::create(Region::CityType, "City,2,100");
+        Region *city2 = Region::create(Region::CityType, "City,1,100");
 
-    // TODO: Add test cases for computeTotalPopulation
+        world->addRegion(nation);
+        nation->addRegion(state);
+        state->addRegion(county);
+        county->addRegion(city);
+        county->addRegion(city2);
+
+        int totalPopulation = world->computeTotalPopulation();
+        if (totalPopulation != 15) {
+            std::cout << "Did not compute properly...fix it dummy" << std::endl;
+            std::cout << "\t\tExpected 15 but got: " << world->computeTotalPopulation() << std::endl;
+        }
+    }
 }
