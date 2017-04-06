@@ -81,8 +81,8 @@ int main()
     }else{printf("Test 10: Failed\n");}
     std::string command;
     do{
-        printf("What would you like to do \n"
-                       "x-exit   a-add    i-find by index    k-find by key    dk-delete by key    di-delete by index\n");
+        printf("\n\n\n\nWhat would you like to do \n"
+                       "x-exit   a-add    i-find by index    k-find by key    dk-delete by key    di-delete by index\n\n\n\n\n");
         std:: cin >> command;
         if (command ==  "x"){
             break;
@@ -95,6 +95,31 @@ int main()
             printf("Enter value:\n");
             std::cin >> value;
             userDictionary.add(key, value);
+        }
+        else if(command == "i"){
+            int response;
+            printf("Enter Index: \n");
+            std::cin >> response;
+            const KeyValue<std::string, std::string>& index = myDictionary.searchByInd(1);
+            std::cout << index.getKey() << " " << index.getValue() << std::endl;
+        }
+        else if(command == "k"){
+            std::string response;
+            printf("Enter Key \n");
+            std::cin >> response;
+            KeyValue<std::string,std::string> key = myDictionary.searchByKey(response);
+            std::cout << key.getKey() << " " << key.getValue() << std::endl;
+        }
+        else if(command == "dk"){
+            std::string response;
+            printf("Enter Key to Delete \n");
+            myDictionary.deleteByKey(response);
+        }
+        else if(command == "di"){
+            int response;
+            printf("Enter Index \n");
+            std::cin >> response;
+            myDictionary.deleteByInd(response);
         }
     }while (command != "x");
     return 0;
