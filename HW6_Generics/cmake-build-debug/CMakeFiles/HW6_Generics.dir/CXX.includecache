@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bradybodily/Repositories/CS1440/HW6_Generics/Dictionary.hpp
+KeyValue.hpp
+/Users/bradybodily/Repositories/CS1440/HW6_Generics/KeyValue.hpp
+exception
+-
+iostream
+-
+string
+-
+
+/Users/bradybodily/Repositories/CS1440/HW6_Generics/KeyValue.hpp
+
+/Users/bradybodily/Repositories/CS1440/HW6_Generics/main.cpp
+iostream
+-
+Dictionary.hpp
+/Users/bradybodily/Repositories/CS1440/HW6_Generics/Dictionary.hpp
+

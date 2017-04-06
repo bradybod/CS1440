@@ -12,27 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63cdb798-da35-4f5e-aaf2-6acc4cbc9337" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/City.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/City.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/County.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/County.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/CountyUserInterface.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/CountyUserInterface.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/Nation.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/Nation.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/NationUserInterface.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/NationUserInterface.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/Region.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/Region.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/State.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/State.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/StateUserInterface.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/StateUserInterface.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/UserInterface.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/UserInterface.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/World.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/World.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/WorldUserInterface.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/WorldUserInterface.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeoRegions.dir/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/GeoRegions" afterPath="$PROJECT_DIR$/cmake-build-debug/GeoRegions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Test" afterPath="$PROJECT_DIR$/cmake-build-debug/Test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Region.cpp" afterPath="$PROJECT_DIR$/Region.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Region.h" afterPath="$PROJECT_DIR$/Region.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/RegionTester.cpp" afterPath="$PROJECT_DIR$/Testing/RegionTester.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/depend.make" />
-    </list>
+    <list default="true" id="63cdb798-da35-4f5e-aaf2-6acc4cbc9337" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -119,7 +99,7 @@
       <file leaf-file-name="Region.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Region.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="840">
               <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
             </state>
@@ -540,12 +520,12 @@
       <workItem from="1489881090593" duration="275000" />
       <workItem from="1490044298123" duration="385000" />
       <workItem from="1490227760080" duration="13938000" />
-      <workItem from="1490487318763" duration="2402000" />
+      <workItem from="1490487318763" duration="2608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66424000" />
+    <option name="totallyTimeSpent" value="66630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -921,7 +901,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Region.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="840">
           <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
