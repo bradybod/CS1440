@@ -5,15 +5,15 @@
 #include "UserIPList.hpp"
 UserIPList::UserIPList(std::ifstream& fin) {
     std::vector<std::string> values;
-    values.push_back("");values.push_back("");values.push_back("");values.push_back("");
+    //values.push_back("");values.push_back("");values.push_back("");values.push_back("");
     std::string tempLine;
     while(!fin.eof()) {
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i <= 3; i++) {
             getline(fin, tempLine, ',');
             values[i] = tempLine;
         }
-        getline(fin, tempLine);
-        values[3] = tempLine;
+        //values[] = tempLine;
+        //getline(fin, tempLine);
         UserIP temp(stoi(values[0]), values[1], stoi(values[2]), stoi(values[3]));
         AllIPs.push_back(temp);
 

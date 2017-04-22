@@ -20,7 +20,7 @@ public:
     ITAK(ifstream& fin, int Time, int Num, int PossNum, int PortAttacks, int PossPortAttacks);
     void Print();
     UserIPList* Addresses;
-    std::vector<Config>* DenialOfServiceConfigs;
+    std::vector<Config>* DOSConfigs;
     std::vector<Config>* PortScanConfigs;
     Result DenialOfServiceResults;
     Result PortScanResults;

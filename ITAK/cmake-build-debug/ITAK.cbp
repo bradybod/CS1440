@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug"/>
+				<Option working_dir="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug"/>
+				<Option working_dir="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug"/>
+				<Option working_dir="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ITAK">
-				<Option output="/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/ITAK" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug"/>
+				<Option output="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/ITAK" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITAK"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITAK"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ITAK/fast">
-				<Option output="/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/ITAK" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug"/>
+				<Option output="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/ITAK" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,80 +73,80 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITAK/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITAK/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/Analyzer.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Analyzer.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/Config.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Config.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/Config.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Config.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/DOSAnalyzer.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/DOSAnalyzer.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/DOSAnalyzer.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/DOSAnalyzer.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/Dictionary.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Dictionary.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/Dictionary.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Dictionary.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/ITAK.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/ITAK.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/ITAK.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/ITAK.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/KeyCount.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyCount.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/KeyCount.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyCount.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/KeyDictionary.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyDictionary.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/KeyValue.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyValue.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/KeyValue.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyValue.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/PortScanAnalyzer.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/PortScanAnalyzer.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/PortScanAnalyzer.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/PortScanAnalyzer.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/Result.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Result.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/Result.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Result.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/UserIP.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/UserIP.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/UserIPList.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/UserIPList.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/UserIPList.hpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/UserIPList.hpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/main.cpp">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/main.cpp">
 			<Option target="ITAK"/>
 		</Unit>
-		<Unit filename="/Users/bradybodily/Repositories/CS1440/ITAK/CMakeLists.txt">
+		<Unit filename="/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

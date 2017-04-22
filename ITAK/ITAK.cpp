@@ -9,7 +9,6 @@
 
 ITAK::ITAK(ifstream& fin, int Time, int Num, int PossNum, int PortAttacks, int PossPortAttacks) {
     Addresses = new UserIPList(fin);
-
     if (Num <= PossNum) {
         throw invalid_argument("Invalid Argument: Limit <= Watchlist");
     }
@@ -18,17 +17,17 @@ ITAK::ITAK(ifstream& fin, int Time, int Num, int PossNum, int PortAttacks, int P
         throw invalid_argument("Invalid Argument: Limit <= watchlist");
     }
 
-    Config TimeFrame("Time span", Time);
+    Config TimeSpan("Time span", Time);
     Config MessageCount("Likely Attack Message Count", Num);
     Config PossMCount("Possible Attack Message Count", PossNum);
-    DenialOfServiceConfigs = new vector<Config>;
+    DOSConfigs = new vector<Config>;
     PortScanConfigs = new vector<Config>;
-    (*DenialOfServiceConfigs).push_back(TimeFrame);
-    (*DenialOfServiceConfigs).push_back(MessageCount);
-    (*DenialOfServiceConfigs).push_back(PossMCount);
+    (*DOSConfigs).push_back(TimeSpan);
+    (*DOSConfigs).push_back(MessageCount);
+    (*DOSConfigs).push_back(PossMCount);
     (*PortScanConfigs).push_back(Config("Likely Attack Port Count", PortAttacks));
     (*PortScanConfigs).push_back(Config("Possible Attack Port Count", PossPortAttacks));
-    DenialAnalyzer = new DOSAnalyzer(DenialOfServiceConfigs, Addresses);
+    DenialAnalyzer = new DOSAnalyzer(DOSConfigs, Addresses);
     PortAnalyzer = new POSAnalyzer(PortScanConfigs, Addresses);
     DenialOfServiceResults = DenialAnalyzer->Run();
     PortScanResults = PortAnalyzer->Run();
