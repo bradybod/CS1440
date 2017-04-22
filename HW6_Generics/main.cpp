@@ -1,12 +1,13 @@
 #include <iostream>
 #include "Dictionary.hpp"
+#include <string>
 
 int main()
 {
     // constructors
     Dictionary<std::string,std::string> myDictionary;
     Dictionary<std::string, std::string> myDictionary2(1000);
-    Dictionary<std::string, std::string> userDictionary(1000);
+    Dictionary<std::string, std::string> userDictionary(0);
 
     // add key/value pairs to dictionaries
     myDictionary.add("hair color", "brown");
@@ -91,35 +92,49 @@ int main()
             std::string key;
             std::string value;
             printf("Enter key: \n");
-            std::cin >> key;
+            std::cin.ignore();
+            std::getline(std::cin, key);
             printf("Enter value:\n");
-            std::cin >> value;
+            std::cin.ignore();
+            std::getline(std::cin, value);
             userDictionary.add(key, value);
         }
         else if(command == "i"){
-            int response;
-            printf("Enter Index: \n");
-            std::cin >> response;
-            const KeyValue<std::string, std::string>& index = myDictionary.searchByInd(1);
-            std::cout << index.getKey() << " " << index.getValue() << std::endl;
+            if(userDictionary.getCount()>0) {
+                int response;
+                printf("Enter Index: \n");
+                std::cin >> response;
+                const KeyValue<std::string, std::string> &index = userDictionary.searchByInd(response);
+                std::cout << index.getKey() << " " << index.getValue() << std::endl;
+            } else{printf("ADD ITEMS TO DICTIONARY FIRST\n");}
         }
         else if(command == "k"){
-            std::string response;
-            printf("Enter Key \n");
-            std::cin >> response;
-            KeyValue<std::string,std::string> key = myDictionary.searchByKey(response);
-            std::cout << key.getKey() << " " << key.getValue() << std::endl;
+            if(userDictionary.getCount()>0) {
+                std::string response;
+                printf("Enter Key \n");
+                std::cin.ignore();
+                std::getline(std::cin, response);
+                KeyValue<std::string, std::string> key = userDictionary.searchByKey(response);
+                std::cout << key.getKey() << " " << key.getValue() << std::endl;
+
+            }else{printf("ADD ITEMS TO DICTIONARY FIRST\n");}
+
         }
         else if(command == "dk"){
             std::string response;
             printf("Enter Key to Delete \n");
-            myDictionary.deleteByKey(response);
+            std::cin.ignore();
+            std::getline(std::cin, response);
+            userDictionary.deleteByKey(response);
         }
         else if(command == "di"){
             int response;
-            printf("Enter Index \n");
-            std::cin >> response;
-            myDictionary.deleteByInd(response);
+                printf("Enter Index \n");
+                std::cin >> (response);
+               if (response >= 0 && response <= userDictionary.getCount() && userDictionary.getCount() != 0) {
+                    userDictionary.deleteByInd(response);
+                } else {printf("Invalid Index\n"); }
+
         }
     }while (command != "x");
     return 0;

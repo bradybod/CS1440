@@ -102,7 +102,10 @@ void Dictionary<K,V>::increase(){
 
 template <typename K, typename V>
 void Dictionary<K, V>::add(const K& key, const V &value){
-    if (m_availibleSpace == 0){
+
+     KeyValue<std::string, std::string> test = searchByKey(key);
+
+     if (m_availibleSpace == 0){
         m_keyValuePair = new KeyValue<K, V>*[DEFAULTSIZE];
         m_keyValuePair[m_count] = new KeyValue<K,V>(key, value);
         m_availibleSpace = DEFAULTSIZE;
@@ -121,7 +124,7 @@ void Dictionary<K, V>::add(const K& key, const V &value){
 
 template <typename K, typename V>
 const KeyValue<K, V>& Dictionary<K, V>::searchByKey(const K& key) const{
-    for(int i=0; i<m_count; i++) {
+    for(int i=0; i < m_count; i++) {
         if(key == m_keyValuePair[i] -> getKey()){
             return *m_keyValuePair[i];
         }

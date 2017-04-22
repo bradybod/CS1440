@@ -155,7 +155,6 @@ std::string rightTrim(const std::string &inputStr)
 std::string trim(const std::string& str) {
     return leftTrim(rightTrim(str));
 }
-
 // Function to check if a character is a not a whitespace character, namely
 //      space (0x20, ' ')
 //      form feed (0x0c, '\f')

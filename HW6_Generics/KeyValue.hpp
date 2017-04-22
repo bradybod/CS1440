@@ -20,7 +20,8 @@ private:
     V m_value;
 };
 template <typename K, typename V>
-KeyValue<K,V>:: KeyValue(const KeyValue &object){
+
+KeyValue<K,V>:: KeyValue(const KeyValue &object) {
     m_key = object.m_key;
     m_value = object.m_value;
 };
