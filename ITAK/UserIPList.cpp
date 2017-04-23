@@ -3,23 +3,31 @@
 //
 #include <string>
 #include "UserIPList.hpp"
-UserIPList::UserIPList(std::ifstream& fin) {
-    std::vector<std::string> values;
+#include <sstream>
+UserIPList::UserIPList(std::ifstream* fin) {
+    //std::vector<std::string> values;
     //values.push_back("");values.push_back("");values.push_back("");values.push_back("");
     std::string tempLine;
-    while(!fin.eof()) {
-        for (int i = 0; i <= 3; i++) {
-            getline(fin, tempLine, ',');
-            values[i] = tempLine;
+    while (!fin->eof()) {
+        std::getline(*fin, tempLine);
+        //std::cout << tempLine << "after getline" << std::endl;
+        std::string values[4];
+        std::stringstream ss;
+        ss.str(tempLine);
+        std::string item;
+        int i = 0;
+        while (std::getline(ss, item, ',') && i < 4) {
+            values[i++] = item;
         }
-        //values[] = tempLine;
-        //getline(fin, tempLine);
-        UserIP temp(stoi(values[0]), values[1], stoi(values[2]), stoi(values[3]));
-        AllIPs.push_back(temp);
+        UserIP *temp = new UserIP(std::stoi(values[0]), values[1], std::stoi(values[2]), std::stoi(values[3]));
+        AllIPs.push_back(*temp);
+
 
     }
-
 }
+
+
+
 
 void UserIPList::PrintAll() {
     for (int i = 0; i < AllIPs.size(); i++) {

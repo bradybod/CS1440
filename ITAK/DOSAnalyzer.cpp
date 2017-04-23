@@ -1,11 +1,10 @@
 
 #include "DOSAnalyzer.hpp"
 #include "UserIP.hpp"
-
 DOSAnalyzer::DOSAnalyzer(vector<Config>* configs, UserIPList *addresses) : Analyzer() {
     Addresses = addresses;
-    for (int i = 0; i < (*configs).size(); ++i){
-        if ((*configs)[i].GetType() == "Timeframe"){
+    for (int i = 0; i < (*configs).size(); i++){
+        if ((*configs)[i].GetType() == "Time span"){
             TIMEFRAME = (*configs)[i].GetValue();
         } else if ((*configs)[i].GetType() == "Likely Attack Message Count") {
             likelyMCount = (*configs)[i].GetValue();

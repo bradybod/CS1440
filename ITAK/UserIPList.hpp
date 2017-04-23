@@ -16,7 +16,7 @@ private:
     std::vector<UserIP> AllIPs;
 
 public:
-    UserIPList(std::ifstream& fin);
+    UserIPList(std::ifstream* fin);
     void PrintFromIndex(int index);
     UserIP GetAddressFromIndex(int index);
     UserIP GetAddressByIP(std::string IP);

@@ -8,7 +8,7 @@
 
 
 ITAK::ITAK(ifstream& fin, int Time, int Num, int PossNum, int PortAttacks, int PossPortAttacks) {
-    Addresses = new UserIPList(fin);
+    Addresses = new UserIPList(&fin);
     if (Num <= PossNum) {
         throw invalid_argument("Invalid Argument: Limit <= Watchlist");
     }

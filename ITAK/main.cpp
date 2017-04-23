@@ -1,11 +1,15 @@
-#include <iostream>
+
+#include <fstream>
 #include "Result.hpp"
 #include "ITAK.hpp"
 
 int main() {
     bool invalid = true;
     int Time = 0, Attacks = 0, PossAttacks = 0, PortAttacks = 0, PossPortAttacks = 0;
-    ifstream fin("SampleData.csv");
+    std::ifstream fin("SampleData.csv");
+    if(fin.is_open()){
+        printf("File is open\n");
+    }
     while (invalid) {
         printf("--DOS Attack Analzer--\n\n");
         printf("Time span in secconds: \n");
