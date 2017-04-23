@@ -1,16 +1,14 @@
 //
-// Created by Brady Bodily on 4/22/17.
+// Created by Brady Bodily on 4/19/17.
 //
 #include <string>
 #include "UserIPList.hpp"
 #include <sstream>
 UserIPList::UserIPList(std::ifstream* fin) {
-    //std::vector<std::string> values;
-    //values.push_back("");values.push_back("");values.push_back("");values.push_back("");
+    /
     std::string tempLine;
     while (!fin->eof()) {
         std::getline(*fin, tempLine);
-        //std::cout << tempLine << "after getline" << std::endl;
         std::string values[4];
         std::stringstream ss;
         ss.str(tempLine);

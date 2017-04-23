@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bradybodily/Repositories/CS1440/CS1440/ITAK
+CMAKE_SOURCE_DIR = /Users/bradybodily/Repositories/CS1440/ITAK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ITAK.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ITAK.dir/flags.make
 
 CMakeFiles/ITAK.dir/main.cpp.o: CMakeFiles/ITAK.dir/flags.make
 CMakeFiles/ITAK.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ITAK.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/main.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ITAK.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/main.cpp.o -c /Users/bradybodily/Repositories/CS1440/ITAK/main.cpp
 
 CMakeFiles/ITAK.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/main.cpp > CMakeFiles/ITAK.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/ITAK/main.cpp > CMakeFiles/ITAK.dir/main.cpp.i
 
 CMakeFiles/ITAK.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/main.cpp -o CMakeFiles/ITAK.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/ITAK/main.cpp -o CMakeFiles/ITAK.dir/main.cpp.s
 
 CMakeFiles/ITAK.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ITAK.dir/main.cpp.o.provides.build: CMakeFiles/ITAK.dir/main.cpp.o
 
 CMakeFiles/ITAK.dir/ITAK.cpp.o: CMakeFiles/ITAK.dir/flags.make
 CMakeFiles/ITAK.dir/ITAK.cpp.o: ../ITAK.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ITAK.dir/ITAK.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/ITAK.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/ITAK.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ITAK.dir/ITAK.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/ITAK.cpp.o -c /Users/bradybodily/Repositories/CS1440/ITAK/ITAK.cpp
 
 CMakeFiles/ITAK.dir/ITAK.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/ITAK.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/ITAK.cpp > CMakeFiles/ITAK.dir/ITAK.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/ITAK/ITAK.cpp > CMakeFiles/ITAK.dir/ITAK.cpp.i
 
 CMakeFiles/ITAK.dir/ITAK.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/ITAK.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/ITAK.cpp -o CMakeFiles/ITAK.dir/ITAK.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/ITAK/ITAK.cpp -o CMakeFiles/ITAK.dir/ITAK.cpp.s
 
 CMakeFiles/ITAK.dir/ITAK.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ITAK.dir/ITAK.cpp.o.provides.build: CMakeFiles/ITAK.dir/ITAK.cpp.o
 
 CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o: CMakeFiles/ITAK.dir/flags.make
 CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o: ../PortScanAnalyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/PortScanAnalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o -c /Users/bradybodily/Repositories/CS1440/ITAK/PortScanAnalyzer.cpp
 
 CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/PortScanAnalyzer.cpp > CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/ITAK/PortScanAnalyzer.cpp > CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.i
 
 CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/PortScanAnalyzer.cpp -o CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/ITAK/PortScanAnalyzer.cpp -o CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.s
 
 CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o.provides.build: CMakeFiles/ITAK.dir/P
 
 CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.o: CMakeFiles/ITAK.dir/flags.make
 CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.o: ../DOSAnalyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/DOSAnalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.o -c /Users/bradybodily/Repositories/CS1440/ITAK/DOSAnalyzer.cpp
 
 CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/DOSAnalyzer.cpp > CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/ITAK/DOSAnalyzer.cpp > CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.i
 
 CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/DOSAnalyzer.cpp -o CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/ITAK/DOSAnalyzer.cpp -o CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.s
 
 CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ITAK.dir/DOSAnalyzer.cpp.o.provides.build: CMakeFiles/ITAK.dir/DOSAna
 
 CMakeFiles/ITAK.dir/Config.cpp.o: CMakeFiles/ITAK.dir/flags.make
 CMakeFiles/ITAK.dir/Config.cpp.o: ../Config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ITAK.dir/Config.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/Config.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ITAK.dir/Config.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/Config.cpp.o -c /Users/bradybodily/Repositories/CS1440/ITAK/Config.cpp
 
 CMakeFiles/ITAK.dir/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/Config.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Config.cpp > CMakeFiles/ITAK.dir/Config.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/ITAK/Config.cpp > CMakeFiles/ITAK.dir/Config.cpp.i
 
 CMakeFiles/ITAK.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/Config.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Config.cpp -o CMakeFiles/ITAK.dir/Config.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/ITAK/Config.cpp -o CMakeFiles/ITAK.dir/Config.cpp.s
 
 CMakeFiles/ITAK.dir/Config.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ITAK.dir/Config.cpp.o.provides.build: CMakeFiles/ITAK.dir/Config.cpp.
 
 CMakeFiles/ITAK.dir/Dictionary.cpp.o: CMakeFiles/ITAK.dir/flags.make
 CMakeFiles/ITAK.dir/Dictionary.cpp.o: ../Dictionary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ITAK.dir/Dictionary.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/Dictionary.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Dictionary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ITAK.dir/Dictionary.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/Dictionary.cpp.o -c /Users/bradybodily/Repositories/CS1440/ITAK/Dictionary.cpp
 
 CMakeFiles/ITAK.dir/Dictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/Dictionary.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Dictionary.cpp > CMakeFiles/ITAK.dir/Dictionary.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/ITAK/Dictionary.cpp > CMakeFiles/ITAK.dir/Dictionary.cpp.i
 
 CMakeFiles/ITAK.dir/Dictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/Dictionary.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Dictionary.cpp -o CMakeFiles/ITAK.dir/Dictionary.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/ITAK/Dictionary.cpp -o CMakeFiles/ITAK.dir/Dictionary.cpp.s
 
 CMakeFiles/ITAK.dir/Dictionary.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ITAK.dir/Dictionary.cpp.o.provides.build: CMakeFiles/ITAK.dir/Diction
 
 CMakeFiles/ITAK.dir/KeyValue.cpp.o: CMakeFiles/ITAK.dir/flags.make
 CMakeFiles/ITAK.dir/KeyValue.cpp.o: ../KeyValue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ITAK.dir/KeyValue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/KeyValue.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyValue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ITAK.dir/KeyValue.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/KeyValue.cpp.o -c /Users/bradybodily/Repositories/CS1440/ITAK/KeyValue.cpp
 
 CMakeFiles/ITAK.dir/KeyValue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/KeyValue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyValue.cpp > CMakeFiles/ITAK.dir/KeyValue.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/ITAK/KeyValue.cpp > CMakeFiles/ITAK.dir/KeyValue.cpp.i
 
 CMakeFiles/ITAK.dir/KeyValue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/KeyValue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyValue.cpp -o CMakeFiles/ITAK.dir/KeyValue.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/ITAK/KeyValue.cpp -o CMakeFiles/ITAK.dir/KeyValue.cpp.s
 
 CMakeFiles/ITAK.dir/KeyValue.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/ITAK.dir/KeyValue.cpp.o.provides.build: CMakeFiles/ITAK.dir/KeyValue.
 
 CMakeFiles/ITAK.dir/Result.cpp.o: CMakeFiles/ITAK.dir/flags.make
 CMakeFiles/ITAK.dir/Result.cpp.o: ../Result.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ITAK.dir/Result.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/Result.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Result.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ITAK.dir/Result.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/Result.cpp.o -c /Users/bradybodily/Repositories/CS1440/ITAK/Result.cpp
 
 CMakeFiles/ITAK.dir/Result.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/Result.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Result.cpp > CMakeFiles/ITAK.dir/Result.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/ITAK/Result.cpp > CMakeFiles/ITAK.dir/Result.cpp.i
 
 CMakeFiles/ITAK.dir/Result.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/Result.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/Result.cpp -o CMakeFiles/ITAK.dir/Result.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/ITAK/Result.cpp -o CMakeFiles/ITAK.dir/Result.cpp.s
 
 CMakeFiles/ITAK.dir/Result.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/ITAK.dir/Result.cpp.o.provides.build: CMakeFiles/ITAK.dir/Result.cpp.
 
 CMakeFiles/ITAK.dir/UserIPList.cpp.o: CMakeFiles/ITAK.dir/flags.make
 CMakeFiles/ITAK.dir/UserIPList.cpp.o: ../UserIPList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ITAK.dir/UserIPList.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/UserIPList.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/UserIPList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ITAK.dir/UserIPList.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/UserIPList.cpp.o -c /Users/bradybodily/Repositories/CS1440/ITAK/UserIPList.cpp
 
 CMakeFiles/ITAK.dir/UserIPList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/UserIPList.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/UserIPList.cpp > CMakeFiles/ITAK.dir/UserIPList.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/ITAK/UserIPList.cpp > CMakeFiles/ITAK.dir/UserIPList.cpp.i
 
 CMakeFiles/ITAK.dir/UserIPList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/UserIPList.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/UserIPList.cpp -o CMakeFiles/ITAK.dir/UserIPList.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/ITAK/UserIPList.cpp -o CMakeFiles/ITAK.dir/UserIPList.cpp.s
 
 CMakeFiles/ITAK.dir/UserIPList.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/ITAK.dir/UserIPList.cpp.o.provides.build: CMakeFiles/ITAK.dir/UserIPL
 
 CMakeFiles/ITAK.dir/KeyCount.cpp.o: CMakeFiles/ITAK.dir/flags.make
 CMakeFiles/ITAK.dir/KeyCount.cpp.o: ../KeyCount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ITAK.dir/KeyCount.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/KeyCount.cpp.o -c /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyCount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ITAK.dir/KeyCount.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/KeyCount.cpp.o -c /Users/bradybodily/Repositories/CS1440/ITAK/KeyCount.cpp
 
 CMakeFiles/ITAK.dir/KeyCount.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/KeyCount.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyCount.cpp > CMakeFiles/ITAK.dir/KeyCount.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bradybodily/Repositories/CS1440/ITAK/KeyCount.cpp > CMakeFiles/ITAK.dir/KeyCount.cpp.i
 
 CMakeFiles/ITAK.dir/KeyCount.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/KeyCount.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/KeyCount.cpp -o CMakeFiles/ITAK.dir/KeyCount.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bradybodily/Repositories/CS1440/ITAK/KeyCount.cpp -o CMakeFiles/ITAK.dir/KeyCount.cpp.s
 
 CMakeFiles/ITAK.dir/KeyCount.cpp.o.requires:
 
@@ -325,7 +325,7 @@ ITAK: CMakeFiles/ITAK.dir/UserIPList.cpp.o
 ITAK: CMakeFiles/ITAK.dir/KeyCount.cpp.o
 ITAK: CMakeFiles/ITAK.dir/build.make
 ITAK: CMakeFiles/ITAK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ITAK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ITAK"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ITAK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -351,6 +351,6 @@ CMakeFiles/ITAK.dir/clean:
 .PHONY : CMakeFiles/ITAK.dir/clean
 
 CMakeFiles/ITAK.dir/depend:
-	cd /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bradybodily/Repositories/CS1440/CS1440/ITAK /Users/bradybodily/Repositories/CS1440/CS1440/ITAK /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug /Users/bradybodily/Repositories/CS1440/CS1440/ITAK/cmake-build-debug/CMakeFiles/ITAK.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bradybodily/Repositories/CS1440/ITAK /Users/bradybodily/Repositories/CS1440/ITAK /Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug /Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug /Users/bradybodily/Repositories/CS1440/ITAK/cmake-build-debug/CMakeFiles/ITAK.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ITAK.dir/depend
 
